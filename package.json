@@ -1,0 +1,37 @@
+{
+  "name": "keybase-id",
+  "version": "1.0.0",
+  "description": "An authentication and identification library using Keybase Saltpacks.",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "identity",
+    "authentication",
+    "keybase",
+    "github",
+    "twitter",
+    "saltpack",
+    "auth",
+    "id"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rickjerrity/keybase-id.git"
+  },
+  "author": {
+    "name": "rickjerrity",
+    "url": "https://blackhole.dev/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "moment": "^2.26.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "jest": "^26.1.0",
+    "prettier": "^2.0.5"
+  }
+}
