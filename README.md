@@ -1,3 +1,5 @@
+[![npm version](https://img.shields.io/npm/v/keybase-id?style=flat)](https://npmjs.org/package/keybase-id "View this project on npm")
+
 # Keybase ID
 
 Keybase ID is an identification and authentication library that relies on the [Keybase](https://keybase.io/) Core cryptography client. Keybase ID provides an easy, secure way to identify and authenticate Keybase users that are signing up or logging into your application. Keybase ID uses Keybase's unique [Saltpack](https://saltpack.org/) messaging scheme to authenticate and verify a Keybase user is who they claim to be, then uses Keybase, GitHub, and Twitter APIs (when provided) to further validate a user's identity, returning a calculated score of the validity of a user's "identity".
